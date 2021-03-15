@@ -5,5 +5,5 @@ int main()
  int num;
  num=5;
  printf("%d", num);
- return 0
+ return 0;
 }
