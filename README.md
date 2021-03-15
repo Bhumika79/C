@@ -2,17 +2,6 @@
 #include<stdio.h>
 int main()
 {
- int num;
- printf("Enter the value of num...");
- scanf("%d", &num);
- printf("%d", num);
- return 0;
-}
-
-
-#include<stdio.h>
-int main()
-{
  int num1, num2, sum, pro;
  printf("Enter first number");
  scanf("%d", &num1);
