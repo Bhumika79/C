@@ -1,5 +1,5 @@
 # C Introduction
-C-operators
+C-operators:-
 #include<stdio.h>
 int main()
 {
@@ -15,5 +15,15 @@ int main()
  pro=num1*num2;
  printf("%d", pro);
  return 0;
+}
+Function-of-scanf/printf:-
+#include<stdio.h>
+int main()
+{
+ int num;
+ printf("Enter the value of num...");
+ scanf("%d", &num);
+ printf("%d", num);
+  return 0;
 }
 
