@@ -1,5 +1,22 @@
 # C
 Flow-Control
+ C-while-loop
+#include <stdio.h>
+
+int main()
+{
+   int num;
+   printf("Enter max limit:");
+   scanf("%d", &num);
+   while(num<=100){
+      printf("%d\n", num);
+      num=num+1;
+   }
+
+    return 0;
+}
+
+Flow-Control
 Continue-statement
 #include <stdio.h>
 int main()
@@ -18,7 +35,6 @@ int main()
 }
 
 
-Flow-Control
 C-for-loop-statement
 #include <stdio.h>
 int main(){
@@ -48,4 +64,5 @@ int main()
    printf("Multiple is %lf", multiple);
     return 0;
 }
+
 
