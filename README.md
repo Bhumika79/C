@@ -1,10 +1,23 @@
 # C
-Flow-Control
- C-while-loop
-#include <stdio.h>
+# Flow-Control
 
+If-else-statement
+#include <stdio.h>
 int main()
 {
+    int num;
+    printf("Enter the number:");
+    scanf("%d", &num);
+    if (num%2==0){
+       printf("Number is even...");
+    }
+   else{
+      printf("Numer is odd...");
+   }
+   return 0;
+}
+
+ C-while-loop
    int num;
    printf("Enter max limit:");
    scanf("%d", &num);
@@ -16,7 +29,7 @@ int main()
     return 0;
 }
 
-Flow-Control
+
 Continue-statement
 #include <stdio.h>
 int main()
@@ -64,5 +77,4 @@ int main()
    printf("Multiple is %lf", multiple);
     return 0;
 }
-
 
