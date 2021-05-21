@@ -126,7 +126,7 @@ int main()
    multiple=multiple*num;
    }
    printf("Multiple is %lf", multiple);
-   return
+   return 0;
 }
 
 
