@@ -1,7 +1,6 @@
 /*C-operators:-*/
 #include<stdio.h>
-int main()
-{
+int main(){
  int num1, num2, sum, pro;
  printf("Enter first number");
  scanf("%d", &num1);
