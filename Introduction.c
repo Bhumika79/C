@@ -1,4 +1,4 @@
-C-operators:-
+/*C-operators:-*/
 #include<stdio.h>
 int main()
 {
@@ -15,7 +15,7 @@ int main()
  printf("%d", pro);
  return 0;
 }
-Function-of-scanf/printf:-
+/*Function-of-scanf/printf:-*/
 #include<stdio.h>
 int main()
 {
