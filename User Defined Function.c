@@ -1,7 +1,6 @@
 #include <stdio.h>
 void add();
-int main()
-{
+int main(){
    add();
 }
 void add()
