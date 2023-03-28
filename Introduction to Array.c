@@ -1,6 +1,5 @@
 #include<stdio.h>
-int main()
-{
+int main(){
  int arr[4];
  int i, j;
  printf("Enter 4 array element: ");
