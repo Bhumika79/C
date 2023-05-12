@@ -1,6 +1,5 @@
 @Switch-case-statement
 #include <stdio.h>
-
 int main(){
    int num1, num2, choice,s;
    printf("\n Menu");
